@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: converter
-          image: nasi101/converter
+          image: lislaw48/mikro:converter
           envFrom:
             - configMapRef:
                 name: converter-configmap
